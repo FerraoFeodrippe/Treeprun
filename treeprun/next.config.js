@@ -8,7 +8,7 @@ const nextConfig = {
     async rewrites() {
       return [
         {
-          source: "/home",
+          source: "/treeprun/home",
           destination: `${ROOTPAGE_URL}`,
         },
       ]
