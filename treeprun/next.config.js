@@ -5,11 +5,13 @@ const { ROOTPAGE_URL } = process.env;
  */
 const nextConfig = {
     basePath: "/treeprun",
-    async rewrites() {
+    async redirects() {
       return [
         {
-          source: "/treeprun/home",
+          source: "/",
           destination: `${ROOTPAGE_URL}`,
+          basePath: false,
+          permanent: false,
         },
       ]
     },

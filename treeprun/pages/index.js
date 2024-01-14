@@ -4,7 +4,7 @@ function Treeprun(){
     return (
         <div>
             <p>Index Treeprun</p>
-            <Link href="/home">
+            <Link href="/">
                 Home
             </Link>
         </div>
