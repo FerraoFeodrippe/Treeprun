@@ -8,9 +8,8 @@ const nextConfig = {
     async redirects() {
       return [
         {
-          source: "/",
+          source: "/home",
           destination: `${ROOTPAGE_URL}`,
-          basePath: false,
           permanent: false,
         },
       ]
